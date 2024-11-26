@@ -54,7 +54,7 @@
           bindings = <&kp SLASH>, <&kp PIPE>, <&kp BACKSLASH>;
       };
    
-   q_excl: q_exclamation {
+   q_excl: q_excl {
           compatible = "zmk,behavior-mod-morph";
           label = "question_exclamation";
           #binding-cells = <0>;
