@@ -92,11 +92,11 @@ keymap {
 
 	default_layer {
       bindings = <
-        &kp END   &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &tog 1                                                              &mo 3 &kp N6     &kp N7   &kp N8   &kp N9 &kp N0 &kp HOME
-        &kp TAB   &kp B     &kp Y     &kp O     &kp U     &kp Z         &none                                                               &none &kp Q      &kp L    &kp D    &kp W  &kp V  &td_slash
-        &kp LSHFT &kp C     &kp I     &kp E     &kp A     &kp COMMA     &none             &kp LCTRL &kp LALT  &kp RALT  &kp RCTRL           &none &kp PERIOD &kp H    &kp T    &kp S  &kp N  &kp RSHFT
-       &kp LGUI  &kp G     &kp X     &kp J     &kp K     &kp SEMICOLON                             &kp ESC   &kp PG_DOWN                         &FSLH    &kp R    &kp M    &kp F  &kp P  &kp SQT
-        &mo 2     &kp GRAVE &kp CAPS  &kp LEFT  &kp RIGHT                       &kp BSPC  &kp DEL   &kp EQUAL &kp MINUS &kp ENTER &kp SPACE                  &kp UP   &kp DOWN &kp LBKT &kp RBKT &mo_tog 1 1
+        &kp END   &kp N1    &kp N2    &kp N3    &kp N4    &kp N5     &tog 1                                                              &mo 3 &kp N6   &kp N7   &kp N8   &kp N9   &kp N0 &kp HOME
+        &kp TAB   &kp B     &kp Y     &kp O     &kp U     &kp Z      &none                                                               &none &kp Q    &kp L    &kp D    &kp W    &kp V  &td_slash
+        &kp LSHFT &kp C     &kp I     &kp E     &kp A     &kp COMMA  &none             &kp LCTRL &kp LALT  &kp RALT  &kp RCTRL           &none &kp DOT  &kp H    &kp T    &kp S    &kp N  &kp RSHFT
+        &kp LGUI  &kp G     &kp X     &kp J     &kp K     &kp SEMI                               &kp ESC   &kp PG_DOWN                         &kp FSLH &kp R    &kp M    &kp F    &kp P  &kp SQT
+        &mo 2     &kp GRAVE &kp CAPS  &kp LEFT  &kp RIGHT                       &kp BSPC  &kp DEL   &kp EQUAL &kp MINUS &kp ENTER &kp SPACE             &kp UP   &kp DOWN &kp LBKT &kp RBKT &mo_tog 1 1
       >;
 	};
 
