@@ -46,7 +46,7 @@
           bindings = <&mo>, <&tog>;
 		};
    
-   td_slashes: tap_dance_slash {
+   td_slash: tp_slash {
           compatible = "zmk,behavior-tap-dance";
           label = "TAP_DANCE_SLASH";
           #binding-cells = <0>;
@@ -54,7 +54,7 @@
           bindings = <&kp SLASH>, <&kp PIPE>, <&kp BACKSLASH>;
 		};
    
-   q_exclamation: q_exclamation {
+   q_excl: q_excl {
           compatible = "zmk,behavior-mod-morph";
           label = "question_exclamation";
           #binding-cells = <0>;
@@ -92,11 +92,11 @@ keymap {
 
 	default_layer {
 		bindings = <
-			&kp SHIFT_LAYER	&kp N1   	&kp N2    &kp N3    &kp N4	&kp N5              &tog 1                                                                  &mo 3		&kp N6  &kp N7			&kp N8    &kp N9    &kp N0	&kp HOME
-			&kp TAB      	&kp B     	&kp Y     &kp O     &kp U	&kp Z               &none                                                                   &none		&kp Q   &kp L			&kp D     &kp W     &kp V	&td_slashes
-			&kp ESCAPE		&kp C     	&kp I     &kp E     &kp A	&kp COMMA           &none		&kp LCTRL	&kp LWIN	       &kp RALT		&kp RCTRL	&none	&kp PERIOD		&kp H     &kp T     &kp S	&kp N	&kp SQT
-			&kp LSHIFT		&kp G		&kp X     &kp J     &kp K	&kp SEMICOLON       &kp ESC				&kp PAGE_DOWN   	&q_exclamation	&kp R     &kp M     &kp F	&kp P	&kp RSHFT
-			&mo 2			&kp GRAVE  	&kp CAPS  &kp LEFT	&kp RIGHT                   &kp BSPC	&kp DEL		&kp EQUAL           &kp MINUS	&kp ENTER		&kp SPACE	&kp UP	&kp DOWN		&kp LBKT  &kp RBKT  &mo_tog KEY_PAD KEY_PAD
+			&kp END    &kp N1		&kp N2    &kp N3    &kp N4	&kp N5              &tog 1                                                                  &mo 3		&kp N6  &kp N7			&kp N8    &kp N9    &kp N0	&kp HOME
+			&kp TAB    &kp B		&kp Y     &kp O     &kp U	&kp Z               &none                                                                   &none		&kp Q   &kp L			&kp D     &kp W     &kp V	&td_slash
+			&kp ESC    &kp C		&kp I     &kp E     &kp A	&kp COMMA           &none		&kp LCTRL	&kp LWIN	       &kp RALT		&kp RCTRL	&none	&kp PERIOD		&kp H     &kp T     &kp S	&kp N	&kp SQT
+			&kp LSHFT  &kp G		&kp X     &kp J     &kp K	&kp SEMI       &kp ESC				&kp PG_DN  	&q_excl	&kp R     &kp M     &kp F	&kp P	&kp RSHFT
+			&mo 2	   &kp GRAVE  	&kp CAPS  &kp LEFT	&kp RIGHT                   &kp BSPC	&kp DEL		&kp EQUAL           &kp MINUS	&kp ENTER		&kp SPACE	&kp UP	&kp DOWN		&kp LBKT  &kp RBKT  &mo_tog KEY_PAD KEY_PAD
 		>;
 	};
 
